@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3', '>= 1.3.13'
 
 gem 'puma', '~> 3.7'
 
@@ -21,8 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'coffee-rails', '~> 4.2'
 
-gem 'turbolinks', '~> 5'
-
+gem 'jquery-turbolinks', '~> 2.1'
 gem 'jbuilder', '~> 2.5'
 gem 'haml', '~> 5.0', '>= 5.0.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'

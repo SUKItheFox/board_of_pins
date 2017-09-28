@@ -11,7 +11,11 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery.turbolinks
 //= require masonry/jquery.masonry
 //= require bootstrap-sprockets
-//= require turbolinks
 //= require_tree .
+//= require masonry/jquery.event-drag
+//= require masonry/jquery.imagesloaded.min
+//= require masonry/jquery.infinitescroll.min
+//= require masonry/modernizr-transitions
